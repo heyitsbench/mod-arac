@@ -13,9 +13,9 @@
 
 ## Screenshot
 
-[! All Races All Classes](https://raw.githubusercontent.com/azerothcore/mod-arac/master/images/screen1.png)
+![All Races All Classes](https://raw.githubusercontent.com/azerothcore/mod-arac/master/images/screen1.png)
 
-[! All Races All Classes](https://raw.githubusercontent.com/azerothcore/mod-arac/master/images/screen2.png)
+![All Races All Classes](https://raw.githubusercontent.com/azerothcore/mod-arac/master/images/screen2.png)
 
 
 # Usage
