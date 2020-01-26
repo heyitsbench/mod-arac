@@ -2,6 +2,9 @@
 
 # ARAC - All Class All Races
 
+# ![ARAC icon](https://raw.githubusercontent.com/azerothcore/mod-arac/master/icon.png)
+
+
 ### Description
 
     Repository: https://github.com/iThorgrim-hub/mod-arac
