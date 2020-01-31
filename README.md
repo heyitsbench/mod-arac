@@ -8,7 +8,7 @@
 ## Description
 
     Repository: hhttps://github.com/iThorgrim-hub/mod-arac
-    Download: https://github.com/iThorgrim-hub/mod-arac/archive/1.0.1.zip
+    Download: https://github.com/iThorgrim-hub/mod-arac/releases
     License: AGPL
 
 ## Screenshot
