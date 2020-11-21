@@ -1,9 +1,7 @@
 # ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
-
-# ARAC - All Class All Races
-
+## ARAC - All Class All Races
 # ![ARAC icon](https://raw.githubusercontent.com/azerothcore/mod-arac/master/icon.png)
-
+- Latest build status with azerothcore: [![Build Status](https://github.com/azerothcore/mod-arac/workflows/core-build/badge.svg?branch=master&event=push)](https://github.com/azerothcore/mod-arac)
 
 ## Description
 
