@@ -5,8 +5,7 @@
 
 ## Description
 
-    Repository: https://github.com/iThorgrim-hub/mod-arac
-    Download: https://github.com/iThorgrim-hub/mod-arac/releases
+    Download: https://github.com/benjymansy123/iThorgrim-Backup/releases/download/backup/mod-arac-2.zip
     License: AGPL
 
 ## Screenshot
@@ -19,7 +18,7 @@
 # Usage
 
 - Make a backup of your database before use this module.
-- Download the [release](https://github.com/iThorgrim-hub/mod-arac/releases)
+- Download the [release](https://github.com/benjymansy123/iThorgrim-Backup/releases/download/backup/mod-arac-2.zip)
 - Apply the sql patches
 - Update your DBC files (client and server) contained in the release, so add **Patch-A.MPQ** to your WoW/Data/ directory and update the DBC files in your server/data/dbc/ directory.
 
@@ -30,6 +29,6 @@ If you encounter a bug please [open a issue](https://github.com/azerothcore/mod-
 
 ## Credits
 
-* [iThorgrim-hub](https://github.com/iThorgrim-hub)
+* [iThorgrim](https://github.com/iThorgrim)
 
 AzerothCore: [repository](https://github.com/azerothcore) - [website](http://azerothcore.org/) - [discord chat community](https://discord.gg/PaqQRkd)
