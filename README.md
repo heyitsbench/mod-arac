@@ -18,7 +18,7 @@
 # Usage
 
 - Make a backup of your database before use this module.
-- Download the [release](https://github.com/azerothcore/mod-arac/releases/
+- Download the [release](https://github.com/azerothcore/mod-arac/releases/)
 - Apply the sql patches
 - Update your DBC files (client and server) contained in the release, so add **Patch-A.MPQ** to your WoW/Data/ directory and update the DBC files in your server/data/dbc/ directory.
 
