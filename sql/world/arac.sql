@@ -7806,3 +7806,9 @@ UPDATE `quest_template` INNER JOIN `quest_template_addon`
 	ON `quest_template_addon`.id = `quest_template`.id
 		SET AllowableRaces = 1791
 			WHERE `quest_template_addon`.allowableclasses != 0 AND AllowableRaces != 0;
+
+-- playercreateinfo_skills
+
+UPDATE `playercreateinfo_skills`
+	SET `raceMask` = 0
+		WHERE `skill` IN (45, 46, 160, 173, 226) AND `classMask` != 0;
