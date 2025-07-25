@@ -7815,29 +7815,29 @@ UPDATE `playercreateinfo_skills`
 
 
 -- Alliance default totems is the Dwarf ones
-SET @HumanFireTotem := 30753;
-SET @HumanEarthTotem := 30754;
+SET @HumanFireTotem := 30754;
+SET @HumanEarthTotem := 30753;
 SET @HumanWaterTotem := 30755;
 SET @HumanAirTotem := 30736;
 
-SET @NightElfFireTotem := 30753;
-SET @NightElfEarthTotem := 30754;
+SET @NightElfFireTotem := 30754;
+SET @NightElfEarthTotem := 30753;
 SET @NightElfWaterTotem := 30755;
 SET @NightElfAirTotem := 30736;
 
-SET @GnomeFireTotem := 30753;
-SET @GnomeEarthTotem := 30754;
+SET @GnomeFireTotem := 30754;
+SET @GnomeEarthTotem := 30753;
 SET @GnomeWaterTotem := 30755;
 SET @GnomeAirTotem := 30736;
 
 -- Horde default totems is the Orc ones.
-SET @UndeadFireTotem := 30757;
-SET @UndeadEarthTotem := 30758;
+SET @UndeadFireTotem := 30758;
+SET @UndeadEarthTotem := 30757;
 SET @UndeadWaterTotem := 30759;
 SET @UndeadAirTotem := 30756;
 
-SET @BloodElfFireTotem := 30757;
-SET @BloodElfEarthTotem := 30758;
+SET @BloodElfFireTotem := 30758;
+SET @BloodElfEarthTotem := 30757;
 SET @BloodElfWaterTotem := 30759;
 SET @BloodElfAirTotem := 30756;
 
