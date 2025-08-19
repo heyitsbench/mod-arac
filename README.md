@@ -14,8 +14,7 @@
 
 - Make a backup of your database before using this module.
 - Apply [the SQL query](https://github.com/heyitsbench/mod-arac/blob/master/data/sql/db-world/arac.sql) to your `world` database.
-- Update your DBC files (client and server) contained in the release, so add [**Patch-A.MPQ**](https://github.com/heyitsbench/mod-arac/blob/master/Patch-A.MPQ) to your WoW/Data/ directory and update the DBC files in your server/data/dbc/ directory with the ones contained in [the DBFilesContent directory](https://github.com/heyitsbench/mod-arac/tree/master/patch-contents/DBFilesContent).
-
+- Update your client and add [**Patch-A.MPQ**](https://github.com/heyitsbench/mod-arac/blob/master/Patch-A.MPQ) to your WoW/Data/ directory. If the name `Patch-A` is already taken use `Patch-11.MPQ` or the first available number.
 # Need help?
 
 If you encounter a bug, please [open an issue](https://github.com/azerothcore/mod-arac/issues/new).
