@@ -13,7 +13,8 @@
 # Usage
 
 - Make a backup of your database before using this module.
-- The world SQL is in `data/sql/world/base/arac.sql` for AzerothCore's module database updater. On an existing installation, confirm that the updater applied it before creating ARAC characters.
+- The world SQL is in `data/sql/db-world/base/arac.sql` for this AzerothCore fork's module database updater. The `src/` loader registers ARAC as a module so the updater discovers it. On an existing installation, confirm that the updater applied it before creating ARAC characters.
+- `optional/Copy for Custom Race.sql` is manual-only and is not imported by the updater.
 - Copy `Patch-Z.MPQ` into each player's `WoW/Data/` directory. Check that no `Patch-Z.MPQ` exists there first; never replace an unrelated client patch.
 - Copy the three files from `patch-contents/DBFilesContent/` into the server's active `data/dbc/` directory, replacing the matching files. The client MPQ and server DBC files must come from the same ARAC revision.
 - Restart the server and client after installing the files. Back up the database and the original server DBC files first.
