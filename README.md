@@ -13,8 +13,10 @@
 # Usage
 
 - Make a backup of your database before using this module.
-- Apply [the SQL query](https://github.com/heyitsbench/mod-arac/blob/master/data/sql/db-world/arac.sql) to your `world` database.
-- Update your DBC files (client and server) contained in the release, so add [**Patch-A.MPQ**](https://github.com/heyitsbench/mod-arac/blob/master/Patch-A.MPQ) to your WoW/Data/ directory and update the DBC files in your server/data/dbc/ directory with the ones contained in [the DBFilesContent directory](https://github.com/heyitsbench/mod-arac/tree/master/patch-contents/DBFilesContent).
+- The world SQL is in `data/sql/world/base/arac.sql` for AzerothCore's module database updater. On an existing installation, confirm that the updater applied it before creating ARAC characters.
+- Copy `Patch-Z.MPQ` into each player's `WoW/Data/` directory. Check that no `Patch-Z.MPQ` exists there first; never replace an unrelated client patch.
+- Copy the three files from `patch-contents/DBFilesContent/` into the server's active `data/dbc/` directory, replacing the matching files. The client MPQ and server DBC files must come from the same ARAC revision.
+- Restart the server and client after installing the files. Back up the database and the original server DBC files first.
 
 # Need help?
 

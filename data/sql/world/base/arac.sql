@@ -1,6 +1,7 @@
 -- playercreateinfo
 
-INSERT IGNORE INTO `playercreateinfo` VALUES
+INSERT IGNORE INTO `playercreateinfo`
+(`race`, `class`, `map`, `zone`, `position_x`, `position_y`, `position_z`, `orientation`) VALUES
 (1, 1, 0, 12, -8949.95, -132.493, 83.5312, 0),
 (1, 2, 0, 12, -8949.95, -132.493, 83.5312, 0),
 (1, 3, 0, 0, -8949.95, -132.493, 83.5312, 0),
@@ -104,7 +105,8 @@ INSERT IGNORE INTO `playercreateinfo` VALUES
 
 -- playercreateinfo_action
 
-INSERT IGNORE INTO `playercreateinfo_action` VALUES
+INSERT IGNORE INTO `playercreateinfo_action`
+(`race`, `class`, `button`, `action`, `type`) VALUES
 (1, 1, 0, 6603, 0),
 (1, 1, 72, 6603, 0),
 (1, 1, 73, 78, 0),
